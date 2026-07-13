@@ -33,5 +33,6 @@ Small browser games I built while learning front-end — several built in multip
 | Wordle | Astro | [`wordle-astro`](./wordle-astro) |
 | Wordle | Vanilla JS | [`wordle-vanilla-js`](./wordle-vanilla-js) |
 
+| Ematchi | Svelte | [`ematchi`](./ematchi) |
 ---
 *Consolidated archive of individual project repos, organized by category.*
