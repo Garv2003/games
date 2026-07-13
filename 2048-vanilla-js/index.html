@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <title>2048</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" type="module"></script>
+</head>
+
+<body>
+  <div id="score-board">
+    <div class="heading1">
+      <div class="head1">2048</div>
+      <div class="scorebox">
+        <div id="score">
+          <span class="scorecolor">SCORE</span>
+          <div class="scoreno">0</div>
+        </div>
+        <div id="bestscore">
+          <span class="scorecolor">BEST</span>
+          <div class="bestno">0</div>
+        </div>
+      </div>
+    </div>
+    <div class="heading2">
+      <div class="head2">
+        <div>
+          Join the tiles, get to <strong class="strong">2048</strong>!
+        </div>
+        <div class="list">How to play →</div>
+      </div>
+      <div class="btn">New Game</div>
+    </div>
+  </div>
+  <div
+  style="position: relative;"
+  >
+    <div class="game-message">
+      Game over!
+      <div class="btn" id="game-over">Try again</div>
+    </div>
+    <div id="game-board"></div>
+  </div>
+
+  <div class="instructions">
+    <span>
+      HOW TO PLAY:
+    </span> Use your <span>
+      arrow keys
+    </span> to move the tiles. Tiles with the same number <span>
+      merge into one
+    </span> when they touch. Add
+    them up to reach <span>
+      2048!
+    </span>
+    <span id="howtoplay">
+      <br>
+      Start playing →
+    </span>
+  </div>
+</body>
+
+</html>

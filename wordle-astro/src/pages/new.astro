@@ -1,0 +1,13 @@
+---
+import Wordle from '../components/Wordle.astro';
+import { newGame, getGame } from '../engine/game';
+const gameId = await newGame();
+const game = await getGame(gameId);
+---
+
+<Wordle
+  word={game.word}
+  guesses={game.guesses}
+  gameId={gameId}
+  completed={game.completed}
+/>

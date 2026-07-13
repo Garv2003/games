@@ -1,0 +1,20 @@
+---
+import Wordle from '../components/Wordle.astro';
+import { getGame, updateGame, checkWord } from '../engine/game';
+const form = await Astro.request.formData();
+const gameId = form.get('gameId').toString();
+const guess = form.get('guess').toString();
+const validWord = checkWord(guess);
+if(validWord) {
+  await updateGame(gameId, guess);  
+}
+const game = await getGame(gameId);
+---
+
+<Wordle
+  word={game.word}
+  guesses={game.guesses}
+  gameId={gameId}
+  completed={game.completed}
+  invalidWord={!validWord ? guess : undefined}
+/>
