@@ -8,7 +8,7 @@ Classic table-tennis / pong.
 
 Open `index.html` in your browser.
 
-> **Same game, also built in:** [Vanilla JS](../ping-pong-vanilla-js-2), [Go](../ping-pong-go)
+> **Same game, also built in:** [Vanilla JS](../ping-pong-vanilla-js), [Go](../ping-pong-go)
 
 ---
-*Archived from the standalone `PP-Game` repository.*
+*Archived from the standalone `Ping-Pong` repository.*

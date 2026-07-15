@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-> **Same game, also built in:** [React](../memory-game-react-2)
+> **Same game, also built in:** [React](../memory-game-react)
 
 ---
-*Archived from the standalone `Memory-Game` repository.*
+*Archived from the standalone `Memory-Game-2` repository.*
